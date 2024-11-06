@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Score-Card</title>
+</head>
+<body>
+    
+    <div id="card">
+
+        <div id="home-div" class="two-divs">
+            <h1>HOME</h1>
+            <div class="score-div">
+               <h2 id="hscore">0</h2> 
+            </div>
+            <div class="incr-btn">
+                <button id="plus-one" onclick="oneplus()">+1</button>
+                <button id="plus-two" onclick="twoplus()">+2</button>
+                <button id="plus-three" onclick="threeplus()">+3</button>
+            </div>
+        </div>
+
+
+        <div id="guest-div" class="two-divs">
+            <h1>GUEST</h1>
+            <div class="score-div">
+                <h2 id="gscore">0</h2>
+            </div>
+            <div class="incr-btn">
+                <button id="plus-one" onclick="goneplus()">+1</button>
+                <button id="plus-two" onclick="gtwoplus()">+2</button>
+                <button id="plus-three" onclick="gthreeplus()" >+3</button>
+            </div>
+        </div>
+
+    </div>
+
+    <h3>Created With &hearts; By <span>Vaibhav Lohani</span></h3>
+    <script src="index.js"></script>
+</body>
+</html>
